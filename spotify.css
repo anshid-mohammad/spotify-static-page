@@ -1,0 +1,535 @@
+body{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    font-family: inherit;
+    
+}
+
+.img-logo{
+   width: 9rem;
+   align-items: center;
+  
+    }
+.main-header{
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+}
+.header{
+    width: 40%;
+    height: 5rem;
+    float: left;
+}
+.header-right{
+    width: 40%;
+    height: 5rem;
+    float: left;
+}
+.nav-link{
+    color: white;
+    margin-left: 2rem;
+}
+.navbar-nav:hover{
+    color: var(--brand-color);
+    
+}
+.primary-button:hover{
+    width: 14.5rem;
+    height: 3.5rem;
+}
+
+.navbar-toggler {
+    background-color: white;
+    padding: 1rem;
+}
+
+ .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 2rem;
+    
+    }
+   .nav-link:hover{
+        color: rgb(164, 244, 44);
+    }
+    .body-left{
+      
+        height: 40rem;
+        width: 100%;
+        float: left;
+        background:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231))
+
+
+    }   
+    .body-right{
+      
+        height: 40rem;
+        width: 100%;
+        float: left;
+        position: relative;
+        text-align: center;
+   
+        background:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231))
+
+    }
+    .first-class{
+        text-align: center;
+        position: relative;
+    }
+
+.img-phone {
+    width: 19rem;
+    margin-top: 87px;
+    border-radius: 22px;
+    margin-left: 8rem;
+ 
+}
+.main-body{
+    width: 100%;
+    height: 40rem;
+   
+    background:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231))
+
+}
+@media screen and (max-width: 768px) {
+
+    .main-body{
+      
+        text-align: center;
+        
+        
+    }
+    .main-text{
+        text-align: center;
+        
+    }
+    .body-right{
+        margin-top: 9rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .body-left .main-img{
+            display: none;
+        }
+        .body-left{
+            display: none;
+            
+        }
+
+        
+    }
+.main-text{
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: white;
+        margin-top: 8rem;
+        text-align: center;
+}
+.primary-button:hover {
+    width: 14.5rem;
+    height: 3.5rem;
+}
+@media screen and (max-width: 1200px) {
+    .banner .right-sec button {
+        position: relative;
+        left: 10%;
+    }
+}
+.primary-button{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 28px;
+    font-weight: bold;
+    border: hidden;
+}
+
+    .content-text .text{
+        font-size: var(--headline-font-size, 40px);
+        line-height: var(--headline-line-height, 46px);
+        text-align: center;
+        padding: 2rem;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .img-text:hover{
+        color: rgb(18, 169, 13);
+
+    }
+    .middle-content{
+        width: 100%;
+        height: 24rem;
+        float: left;
+        background:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231))
+        
+    }
+    .content-raw{
+        width: 100%;
+        height: 35rem;
+        background-color: aquamarine;
+    }
+    .middle-raw{
+        width: 100%;
+        height: 35rem;
+        background-color: aqua;
+    }
+    .mid{
+        background: linear-gradient(rgb(176, 35, 194) 50%, rgb(96, 11, 231));
+    }
+    .img-text{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 22px;
+        font-weight: bold;
+    }
+   .middle-text{
+    height: 14rem;
+    text-align: center;
+    margin-top: 3rem;
+   }
+   .fw-bolder{
+    font-size: 3rem;
+   }
+   .sub-body{
+    height: 6rem;
+    text-align: center;
+   }
+   .text-qa{
+    font-size: 3rem;
+    font-weight: bold;
+   }
+   .accordion-button{
+    font-weight: bold;
+    height: 7rem;
+   }
+   .accordion-button:hover{
+    background-color: lightgray;
+    
+   }
+   .section-1{
+    background: linear-gradient(rgb(176, 35, 194) 50%, rgb(96, 11, 231));
+    height: 18rem;
+
+   }
+   .item{
+    height: 18rem;
+   }
+
+   .img-fluid{   
+    height: 3rem;
+   }
+
+   
+   @media (max-width: 1200px) {
+    footer {
+        padding: 5rem 1rem 2rem 0.5rem;
+    }
+}
+.links{
+   padding: 2rem;
+}
+.footer-text{
+    font-size: 13px;
+    color:rgb(153, 145, 145)
+}
+.text-center1{
+text-align: center;
+cursor: pointer;
+align-items: center;
+float: left;
+
+
+}
+.brand-logo{
+    color:black;
+    align-items: center;
+    float: left;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgb(168, 170, 171);
+}
+.brand-logo:hover{
+    color: rgb(38, 190, 38);
+}
+ul {
+    color: rgb(171, 171, 171);
+    padding: 2rem;
+}
+.footer-logo{
+align-items: center;
+
+
+}
+.img-fluid1{
+    align-items: center;
+    margin-top: 3rem;
+}
+.footer-main{
+
+    align-items: center;
+}
+.small-links{
+   font-size: 12px;
+   
+   color:rgb(153, 145, 145)
+   
+}
+.footer-subtext{
+    font-size: 15px;
+    margin-top: 1rem;
+    cursor: pointer;
+    color:rgb(234, 227, 227)
+    
+}
+.footer-subtext:hover{
+    color: rgb(142, 222, 21);
+}
+@media screen and (max-width: 768px) {
+.about-img{
+    float: left;
+    width: 50%;
+}
+.about-text{
+    float: left;
+    width: 50%;
+    margin-top: -5rem;
+}
+}
+.last-text{
+    width: 40%;
+
+
+    
+}
+.middle-lasttext {
+    width: 40%;
+   
+}
+.last-right{
+    width:20%;
+    float: left;
+}
+.lastone{
+    /* width: 10%;
+    background-color: aqua;
+    height: 20rem;
+    float: left; */
+}
+.small-links a{
+    text-decoration: none;
+    color: rgb(147, 151, 154);
+    font-size: 12px;acc
+    font-weight: 400;
+
+}
+.small-links{
+    list-style-type: none;
+}
+.small-links li{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+@media (max-width: 576px) { 
+    .small-links a{
+        font-size: 10px;
+
+    }
+
+}
+.small-links a:hover{
+    color: var(--brand-color);
+}
+.accordion-body i{
+color: green;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+   
+   
+   
+
+            
+
+
+
+
+
+/* }
+.header-right{
+    height: 4.5rem
+}
+
+.nav-link:hover{
+    color: rgb(63, 219, 63);
+}
+.nav-link{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .mainbody{
+        text-align: center;
+        width: 100%;
+        font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif)), Helvetica, Arial, sans-serif;
+        height: 47rem;
+        background:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231))
+    }
+.main-img{
+    width: 19rem;
+    margin-top: 8rem;
+    border-radius: 26px;
+}
+
+element.style {
+}
+@media screen and (max-width: 992px) {
+.banner-left .main-img{
+        display: none;
+    }
+    .banner-left{
+        display: none;
+    }
+}
+.banner-left{
+float: left;
+
+height: 47rem;
+width: 40%;
+}
+.banner-right{
+float: left;
+height: 42rem;
+width: 60%;
+
+}
+.main-text{
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: bold;
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: white;
+}
+@media (min-width: 768px) {
+    .main-text{
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    font-size: 64px;
+    letter-spacing: -2.56px;
+    max-width: 653px;
+    margin-top: 12rem;
+    
+    }
+   
+    }
+    .button{
+        border-radius: 50px;
+        width: 15rem;
+        height: 4rem;
+        margin-right: 36rem;
+        margin-top: 3rem;
+        cursor: pointer;
+        border-color: white;
+    }
+    .button-text{
+    font-size: 17px;
+    font-weight: bold;
+    }
+    .button:hover{
+        transform: scale(1.07);
+
+    }
+    .sub-body{
+        height: 6rem;
+    }
+    .sub-body .text{
+       
+
+    }
+    @media (min-width: 768px) {
+        .sub-body .text{
+            font-size: var(--headline-font-size, 40px);
+            line-height: var(--headline-line-height, 46px);
+            align-items: center;
+            padding: 2rem;
+            font-weight: bold;
+            font-size: 40px;
+        }
+    }
+    .subbody-content{
+width: 100%;
+height: 41rem;
+float: left;
+    }
+ .img-subbody{
+
+ margin-top: 6rem;
+margin-left: 1rem;
+
+    }
+.img-text{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+.img-subtext{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 17px;
+}
+.text-subcontent{
+height: 32rem;
+    float: left;
+    width: 100%;
+    background:linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231))
+    
+}
+
+
+
+@media (min-width: 768px) {
+    .text-secound{
+        font-weight: bold;
+        font-size: 58px;
+        margin-left: 27rem;
+        margin-top: 2rem;
+        color: white;
+        
+    }
+    .main-textbody{
+        font-weight: bold;
+        font-size: 58px;
+        margin-left: 41rem;
+        margin-top: 6rem;
+        color: white;
+    }
+
+}
+.container{
+    width: 100%;
+    display: 100px;
+}
+@mixin make-container($padding-x: $container-padding-x) {
+    .container{
+
+    
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+} */
